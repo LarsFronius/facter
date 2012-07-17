@@ -1,0 +1,200 @@
+Slot:	00:00.0
+Class:	Host bridge
+Vendor:	ATI Technologies Inc
+Device:	RD890 Northbridge only dual slot (2x8) PCI-e GFX Hydra part
+SVendor:	Dell
+SDevice:	Device 0488
+Rev:	02
+
+Slot:	00:02.0
+Class:	PCI bridge
+Vendor:	ATI Technologies Inc
+Device:	RD890 PCI to PCI bridge (PCI express gpp port B)
+Driver:	pcieport
+
+Slot:	00:09.0
+Class:	PCI bridge
+Vendor:	ATI Technologies Inc
+Device:	RD890 PCI to PCI bridge (PCI express gpp port H)
+Driver:	pcieport
+
+Slot:	00:11.0
+Class:	SATA controller
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 SATA Controller [IDE mode]
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	01
+Driver:	ahci
+
+Slot:	00:12.0
+Class:	USB Controller
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 USB OHCI0 Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	10
+Driver:	ohci_hcd
+
+Slot:	00:12.1
+Class:	USB Controller
+Vendor:	ATI Technologies Inc
+Device:	SB700 USB OHCI1 Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	10
+Driver:	ohci_hcd
+
+Slot:	00:12.2
+Class:	USB Controller
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 USB EHCI Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	20
+Driver:	ehci_hcd
+
+Slot:	00:13.0
+Class:	USB Controller
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 USB OHCI0 Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	10
+Driver:	ohci_hcd
+
+Slot:	00:13.1
+Class:	USB Controller
+Vendor:	ATI Technologies Inc
+Device:	SB700 USB OHCI1 Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	10
+Driver:	ohci_hcd
+
+Slot:	00:13.2
+Class:	USB Controller
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 USB EHCI Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	20
+Driver:	ehci_hcd
+
+Slot:	00:14.0
+Class:	SMBus
+Vendor:	ATI Technologies Inc
+Device:	SBx00 SMBus Controller
+SVendor:	Dell
+SDevice:	Device 0488
+Rev:	3d
+Driver:	piix4_smbus
+
+Slot:	00:14.1
+Class:	IDE interface
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 IDE Controller
+SVendor:	Dell
+SDevice:	Device 0488
+ProgIf:	8f
+Driver:	pata_atiixp
+
+Slot:	00:14.3
+Class:	ISA bridge
+Vendor:	ATI Technologies Inc
+Device:	SB700/SB800 LPC host controller
+SVendor:	Dell
+SDevice:	Device 0488
+
+Slot:	00:14.4
+Class:	PCI bridge
+Vendor:	ATI Technologies Inc
+Device:	SBx00 PCI to PCI Bridge
+ProgIf:	01
+
+Slot:	00:18.0
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor HyperTransport Configuration
+
+Slot:	00:18.1
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor Address Map
+
+Slot:	00:18.2
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor DRAM Controller
+
+Slot:	00:18.3
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor Miscellaneous Control
+Driver:	k10temp
+
+Slot:	00:18.4
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor Link Control
+
+Slot:	00:19.0
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor HyperTransport Configuration
+
+Slot:	00:19.1
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor Address Map
+
+Slot:	00:19.2
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor DRAM Controller
+
+Slot:	00:19.3
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor Miscellaneous Control
+Driver:	k10temp
+
+Slot:	00:19.4
+Class:	Host bridge
+Vendor:	Advanced Micro Devices [AMD]
+Device:	Family 10h Processor Link Control
+
+Slot:	01:00.0
+Class:	RAID bus controller
+Vendor:	LSI Logic / Symbios Logic
+Device:	LSI MegaSAS 9260
+SVendor:	Dell
+SDevice:	PERC H700 Adapter
+Rev:	05
+Driver:	megaraid_sas
+
+Slot:	02:00.0
+Class:	Ethernet controller
+Vendor:	Broadcom Corporation
+Device:	NetXtreme II BCM5716 Gigabit Ethernet
+SVendor:	Dell
+SDevice:	Device 0488
+Rev:	20
+Driver:	bnx2
+
+Slot:	02:00.1
+Class:	Ethernet controller
+Vendor:	Broadcom Corporation
+Device:	NetXtreme II BCM5716 Gigabit Ethernet
+SVendor:	Dell
+SDevice:	Device 0488
+Rev:	20
+Driver:	bnx2
+
+Slot:	03:04.0
+Class:	VGA compatible controller
+Vendor:	Matrox Graphics, Inc.
+Device:	MGA G200eW WPCM450
+SVendor:	Dell
+SDevice:	Device 0488
+Rev:	0a
